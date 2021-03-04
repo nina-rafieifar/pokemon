@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Pokemon";
+  src: local("Pokemon"), url(./fonts/pokemon/Pokemon-Hollow.ttf) format("truetype");
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+  background-image: url("./Images/background.jpg");
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+  text-align: left;
+}
+
+.App-header {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-background {
+  font-family: "Pokemon";
+  color: rgba(255, 255, 255, 0.411);
+  height: 0;
+  font-size: 5em;
+
+  h1 {
+    margin: 0;
+    height: 0;
+  }
+}

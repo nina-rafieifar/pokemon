@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Tigerious";
+  src: local("Tigerious"), url(../../fonts/Tigerious-ywyKe.otf) format("OpenType");
+}
+
+@font-face {
+  font-family: "Space Mono";
+  src: local("Space Mono"), url(../../fonts/spacemono/SpaceMono-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "HeartQuarter";
+  src: local("HeartQuarter"), url(../../fonts/HeartQuarter-MV2Rn.ttf) format("truetype");
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+.pokemon {
+  font-family: "Tigerious";
+  // flex: 1;
+  // display: flex;
+  // flex-direction: column;
+
+  &__details {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 0.15em solid yellow; /* The typewriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0.15em; /* Adjust as needed */
+    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
+
+  &__image {
+    height: 50vmin;
+    pointer-events: none;
+    text-align: left;
+  }
+}
+
+// @media (prefers-reduced-motion: no-preference) {
+//   .pokemon {
+//     animation: App-logo-spin infinite 20s linear;
+//   }
+// }
+
+// @keyframes App-logo-spin {
+//   from {
+//     transform: rotate(0deg);
+//   }
+//   to {
+//     transform: rotate(360deg);
+//   }
+// }
