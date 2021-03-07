@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pokemon-evolution renders as it should 1`] = `
+<pokemon-evolution
+  image="some url"
+  name="Ivysaur"
+  number="002"
+/>
+`;

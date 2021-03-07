@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pokemon-general-attr renders as it should 1`] = `
+<pokemon-general-attr
+  image="some url"
+  name="Ivysaur"
+  number="002"
+/>
+`;

@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pokemon-attacks renders as it should 1`] = `
+<pokemon-attacks
+  damage="55"
+  name="Sludge Bomb"
+/>
+`;
