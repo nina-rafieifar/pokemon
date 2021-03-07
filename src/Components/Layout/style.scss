@@ -1,0 +1,45 @@
+.layout {
+
+  &__error {
+    color: red;
+    padding: 8rem 26rem;
+  }
+
+  &__spinner {
+    padding: 11rem 36rem;
+  }
+
+  .MuiIconButton-root {
+    z-index: 100;
+  }
+
+  button,
+  .Carousel-button-10 {
+    background-color: #ff000085;
+  }
+
+  button:hover {
+    background-color: #ff0000bb !important;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 600px) {
+  .Carousel-root-1 {
+    height: 110vh;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .Carousel-root-1 {
+    height: 90vh;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1400px) {
+  .Carousel-root-1 {
+    height: 80vh;
+  }
+}

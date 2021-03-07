@@ -9,6 +9,35 @@
   background-image: url("./Images/background.jpg");
 }
 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .pokemon {
+    height: 180vh;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .pokemon {
+    height: 160vh;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .App {
+    height: 170vh;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .App {
+    height: 100vh;
+  }
+}
+
 .App-logo {
   height: 10vmin;
   pointer-events: none;
