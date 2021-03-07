@@ -1,0 +1,319 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Pokemon 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <table
+        class="pokemon__evolutions_table"
+      >
+        <tbody>
+          <tr>
+            <td>
+              <div
+                class="pokemon__evolutions_container"
+              >
+                <p>
+                  Evolution
+                </p>
+                <div
+                  class="pokemon__evolutions_items"
+                >
+                  <pokemon-evolution
+                    image="https://img.pokemondb.net/artwork/bulbasaur.jpg"
+                    name="Bulbasaur"
+                    number="001"
+                  />
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"
+                    />
+                  </svg>
+                  <pokemon-evolution
+                    image="https://img.pokemondb.net/artwork/ivysaur.jpg"
+                    name="Ivysaur"
+                    number="002"
+                  />
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td
+              class="pokemon__details_items"
+            >
+              <pokemon-sizes
+                heightmax="0.79m"
+                heightmin="0.61m"
+                weightmax="7.76kg"
+                weightmin="6.04kg"
+              />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>,
+  "container": <div>
+    <table
+      class="pokemon__evolutions_table"
+    >
+      <tbody>
+        <tr>
+          <td>
+            <div
+              class="pokemon__evolutions_container"
+            >
+              <p>
+                Evolution
+              </p>
+              <div
+                class="pokemon__evolutions_items"
+              >
+                <pokemon-evolution
+                  image="https://img.pokemondb.net/artwork/bulbasaur.jpg"
+                  name="Bulbasaur"
+                  number="001"
+                />
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"
+                  />
+                </svg>
+                <pokemon-evolution
+                  image="https://img.pokemondb.net/artwork/ivysaur.jpg"
+                  name="Ivysaur"
+                  number="002"
+                />
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td
+            class="pokemon__details_items"
+          >
+            <pokemon-sizes
+              heightmax="0.79m"
+              heightmin="0.61m"
+              weightmax="7.76kg"
+              weightmin="6.04kg"
+            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`renders Pokemon no evolve 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <table
+        class="pokemon__evolutions_table"
+      >
+        <tbody>
+          <tr>
+            <td>
+              <div
+                class="pokemon__evolutions_container"
+              >
+                <p>
+                  Evolution
+                </p>
+                <div
+                  class="pokemon__evolutions_items pokemon__evolutions_items_no-evolve"
+                >
+                  <p>
+                    This Pokémon does not evolve.
+                  </p>
+                  <div>
+                    <pokemon-evolution
+                      image="https://img.pokemondb.net/artwork/bulbasaur.jpg"
+                      name="Bulbasaur"
+                      number="001"
+                    />
+                  </div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td
+              class="pokemon__details_items"
+            >
+              <pokemon-sizes
+                heightmax="0.79m"
+                heightmin="0.61m"
+                weightmax="7.76kg"
+                weightmin="6.04kg"
+              />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>,
+  "container": <div>
+    <table
+      class="pokemon__evolutions_table"
+    >
+      <tbody>
+        <tr>
+          <td>
+            <div
+              class="pokemon__evolutions_container"
+            >
+              <p>
+                Evolution
+              </p>
+              <div
+                class="pokemon__evolutions_items pokemon__evolutions_items_no-evolve"
+              >
+                <p>
+                  This Pokémon does not evolve.
+                </p>
+                <div>
+                  <pokemon-evolution
+                    image="https://img.pokemondb.net/artwork/bulbasaur.jpg"
+                    name="Bulbasaur"
+                    number="001"
+                  />
+                </div>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td
+            class="pokemon__details_items"
+          >
+            <pokemon-sizes
+              heightmax="0.79m"
+              heightmin="0.61m"
+              weightmax="7.76kg"
+              weightmin="6.04kg"
+            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

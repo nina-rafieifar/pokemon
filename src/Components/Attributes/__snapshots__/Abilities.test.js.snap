@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pokemon-abilities renders as it should 1`] = `
+<pokemon-abilities
+  resistant="grass,fairy"
+  weaknesses="water,ice"
+/>
+`;

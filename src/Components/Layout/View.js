@@ -23,6 +23,8 @@ export function Layout() {
       timeout={500}
       swipe={true}
       cycleNavigation={false}
-    ></Carousel>
+    >
+      {data.pokemons && data.pokemons.map((pokemon, i) => <Pokemon key={i} pokemon={pokemon} />)}
+    </Carousel>
   );
 }

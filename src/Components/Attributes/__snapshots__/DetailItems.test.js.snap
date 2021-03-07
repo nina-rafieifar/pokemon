@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PokemonResistantAndWeaknesses renders the correct elements 1`] = `
+<div
+  class="pokemon__details_items"
+>
+  
+  
+  <span
+    class="chip__text"
+  >
+    <!---->
+    Weight
+    <!---->
+  </span>
+  
+  
+  <div
+    class="chips"
+  >
+    
+    
+    <!---->
+    <div
+      class="chip chip_water"
+    >
+      
+        
+      <span>
+        <!---->
+        water
+        <!---->
+      </span>
+      
+      
+    </div>
+    <!---->
+    <div
+      class="chip chip_fire"
+    >
+      
+        
+      <span>
+        <!---->
+        fire
+        <!---->
+      </span>
+      
+      
+    </div>
+    <!---->
+    
+  
+  </div>
+  
+
+</div>
+`;
+
+exports[`PokemonWeightAndWeight renders the correct elements 1`] = `
+<div
+  class="pokemon__details_items"
+>
+  
+  
+  <span
+    class="size__text"
+  >
+    <!---->
+    Weight
+    <!---->
+  </span>
+  
+  
+  <div
+    class="size"
+  >
+    
+    
+    <span>
+      <!---->
+      12
+       - 
+      10
+      <!---->
+    </span>
+    
+  
+  </div>
+  
+
+</div>
+`;
