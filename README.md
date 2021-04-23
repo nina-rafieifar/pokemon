@@ -1,6 +1,6 @@
 # Getting Started with Pokémon
 
-Welcome to Pokémon app.
+Welcome to Pokémon app. This is only for test.
 
 ![](./src/Images/026.png)
 
